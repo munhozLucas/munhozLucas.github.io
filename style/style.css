@@ -1,0 +1,113 @@
+/*Logo + links para as outras páginas*/
+body {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+header {
+  background: #333333;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 90%;
+  margin: 0px auto;
+}
+
+h1 img {
+  border:solid;
+  border-radius: 120px;
+  border-color: #ffffff;
+  width: 100px;
+  length: 100px;
+}
+
+nav {
+  position:absolute;
+  bottom: 50%;
+  right: 0;
+}
+
+nav li {
+  display:inline;
+}
+nav li:nth-child(2) {
+  margin: 0 100px 0 100px;
+}
+nav li:last-child {
+  margin: 0 600px 0 0;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #cccccc;
+  font-weight: bold;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/*Main SOBRE MIM*/
+main {
+  background: #282828;
+  padding-bottom: 200px;
+}
+
+.whoAmI {
+  position: relative;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.whoAmI h1 {
+  color: #7FA92C;
+  font-size: 36px;
+  text-align: center;
+  padding: 30px 0;
+
+}
+
+.whoAmI h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #BD275D;
+}
+
+.blink {
+  display: inline-block;
+  animation: blinker 0.9s linear infinite;
+  color: #FEFEFE;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.text {
+  font-size: 20px;
+  color: #FEFEFE;
+  padding: 0 0 30px 40px;
+}
+
+/*MAIN exp*/
+
+
+
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  background: #333333;
+  padding: 2px 0;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0;
+}
